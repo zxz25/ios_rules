@@ -1,9 +1,9 @@
 #!name=番茄小说广告屏蔽[gxz自用版]
 #!desc=屏蔽番茄小说底部和章末广告，且不影响金币获取
 #!openUrl=
-#!author=zqzess
-#!homepage=https://github.com/zqzess/rule_for_quantumultX/tree/master/Loon
-#!icon=
+#!author=zxz25
+#!homepage=https://github.com/zxz25/ios_rules
+#!icon=https://raw.githubusercontent.com/zxz25/ios_rules/main/icons/novel/fanqie/fanqie.png
 [Rule]
 # 番茄小说 version = 3.1
 DOMAIN,p6-ad-sign.byteimg.com,REJECT
