@@ -2,7 +2,7 @@
 # AUTHOR: zxz25
 
 // finka广告
-DOMAIN,bj.ad.track.66mobi.com,DIRECT
-DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
-DOMAIN,bgg.baidu.com,REJECT
-DOMAIN,mobads.baidu.com,REJECT
+DOMAIN,bj.ad.track.66mobi.com
+DOMAIN,mobads-pre-config.cdn.bcebos.com
+DOMAIN,bgg.baidu.com
+DOMAIN,mobads.baidu.com
