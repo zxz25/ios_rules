@@ -2,7 +2,15 @@
 # AUTHOR: zxz25
 
 // finka广告
-DOMAIN,bj.ad.track.66mobi.com
-DOMAIN,mobads-pre-config.cdn.bcebos.com
 DOMAIN,bgg.baidu.com
+DOMAIN,ynuf.aliapp.org
 DOMAIN,mobads.baidu.com
+DOMAIN,mobads-logs.baidu.com
+DOMAIN,open.e.kuaishou.com
+DOMAIN,bj.ad.track.66mobi.com
+DOMAIN,sdk.mobads.adwangmai.com
+DOMAIN,mobads-pre-config.cdn.bcebos.com
+DOMAIN,log-api.pangolin-sdk-toutiao.com
+DOMAIN,log-api.pangolin-sdk-toutiao-b.com
+DOMAIN,api-access.pangolin-sdk-toutiao.com
+DOMAIN,api-access.pangolin-sdk-toutiao1.com
