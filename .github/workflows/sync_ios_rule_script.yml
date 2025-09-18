@@ -15,7 +15,7 @@ jobs:
 
       - name: 📥 Clone Third-Party Repo
         run: |
-          git clone --single-branch --branch master --depth 1 https://github.com/blackmatrix7/ios_rule_script.git .
+          git clone --single-branch --branch master https://github.com/blackmatrix7/ios_rule_script.git .
 
       - name: 📤 Push to Gitea
         run: |
