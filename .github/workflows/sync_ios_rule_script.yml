@@ -1,0 +1,27 @@
+name: 🔄 Sync ios_rule_script Repo to Gitea
+
+on:
+  schedule:
+    # 每6小时检查一次（可自定义）
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛒 Checkout empty
+        uses: actions/checkout@v4
+
+      - name: 📥 Clone Third-Party Repo
+        run: |
+          git clone https://github.com/blackmatrix7/ios_rule_script.git .
+
+      - name: 📤 Push to Gitea
+        run: |
+          git remote add gitea https://gitea.zxz25.com/zxz25/ios_rule_script.git
+          git push --mirror gitea
+        env:
+          GIT_ASKPASS: echo
+          GIT_USERNAME: zxz25
+          GIT_PASSWORD: b3dcbb903b26c1fca8dc186a752b682413ac1aaa
