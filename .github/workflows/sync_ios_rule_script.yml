@@ -19,9 +19,5 @@ jobs:
 
       - name: 📤 Push to Gitea
         run: |
-          git remote add gitea https://gitea.zxz25.com/zxz25/ios_rule_script.git
+          git remote add gitea https://${{ secrets.GITEA_USERNAME }}:${{ secrets.GITEA_TOKEN }}@gitea.zxz25.com/zxz25/ios_rule_script.git
           git push --mirror gitea
-        env:
-          GIT_ASKPASS: echo
-          GIT_USERNAME: zxz25
-          GIT_PASSWORD: b3dcbb903b26c1fca8dc186a752b682413ac1aaa
