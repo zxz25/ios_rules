@@ -10,8 +10,8 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: 🛒 Checkout empty
-        uses: actions/checkout@v4
+      # - name: 🛒 Checkout empty
+      #   uses: actions/checkout@v4
 
       - name: 📥 Clone Third-Party Repo
         run: |
